@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image:linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url(./assets/bg-main.jpg);
+  background-image: linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url(./assets/bg-main.jpg);
   background-size: cover;
 }
 
@@ -55,6 +55,7 @@ nav {
   border: none;
   width: 250px;
   padding: 10px;
+  outline: none; /* Remove outline */
 }
 
 #search-bar-container input::placeholder {
@@ -71,18 +72,12 @@ nav {
   outline: none;
 }
 
-span .search-icon{
-  color: #017577;
-  font-weight: 900;
-}
-
-.social-media-conatiner{
+.social-media-conatiner {
   position: absolute;
   left: 2%;
   top: 20%;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .verticle-line {
@@ -91,11 +86,11 @@ span .search-icon{
   background-color: #ffffff;
 }
 
-.social-icons{
+.social-icons {
   margin-top: 50px;
 }
 
-.social-icons ul{
+.social-icons ul {
   margin: 0;
   padding: 0;
 }
@@ -108,13 +103,13 @@ span .search-icon{
   font-size: 1.5rem;
 }
 
-.header-section{
+.header-section {
   width: 20%;
   margin-left: 150px;
   margin-top: 220px;
 }
 
-.header-section h1{
+.header-section h1 {
   color: #ffffff;
   font-size: 4.2rem;
   line-height: 0.3;
@@ -122,7 +117,8 @@ span .search-icon{
   font-family: "Karla", sans-serif;
   text-transform: uppercase;
 }
-.main-description{
+
+.main-description {
   margin-top: 30px;
 }
 
@@ -132,7 +128,7 @@ span .search-icon{
   line-height: 1.2;
 }
 
-.book-now-btn{
+.book-now-btn {
   margin-top: 30px;
   padding: 10px 25px;
   font-weight: 600;
@@ -144,13 +140,13 @@ span .search-icon{
 
 /* About Section */
 
-.header-section-about{
+.header-section-about {
   margin-left: 150px;
   margin-top: 100px;
   margin-right: 100px;
 }
 
-.header-section-about h1{
+.header-section-about h1 {
   color: #ffffff;
   font-size: 4.2rem;
   line-height: 0.3;
@@ -158,34 +154,35 @@ span .search-icon{
   font-family: "Karla", sans-serif;
   text-transform: uppercase;
 }
-.header-section-about .main-description{
-  background-color: rgb(0,0,0,0.3);
+
+.header-section-about .main-description {
+  background-color: rgb(0, 0, 0, 0.3);
   border-radius: 8px;
   padding: 10px;
 }
 
-.contact-person{
+.contact-person {
   border-radius: 8px;
   display: flex;
-  background-color: rgb(0,0,0,0.3);
+  background-color: rgb(0, 0, 0, 0.3);
   margin-top: 50px;
   margin-left: 100px;
   padding: 10px;
   gap: 50px;
 }
 
-.contact-details{
+.contact-details {
   padding: 10px;
   display: flex;
 }
 
-.contact-card{
+.contact-card {
   display: flex;
   align-items: baseline;
   gap: 5px;
 }
 
-.contact-card .person{
+.contact-card .person {
   font-size: 1.5rem;
   color: aquamarine;
   background-color: rgb(4, 77, 179);
@@ -193,20 +190,19 @@ span .search-icon{
   border-radius: 12px;
 }
 
-.person-name{
+.person-name {
   font-weight: 700;
   color: rgb(255, 255, 255, 0.9);
   font-family: "Karla", sans-serif;
-
 }
 
-.person-description{
+.person-description {
   font-weight: 400;
   color: rgb(213, 213, 213);
   font-family: "Karla", sans-serif;
 }
 
-.person-position{
+.person-position {
   background-color: rgb(39, 67, 133);
   color: rgb(255, 255, 255, 0.9);
   padding: 6px 40px;
@@ -216,7 +212,7 @@ span .search-icon{
 
 /* Contact Section */
 
-.header-contact-section{
+.header-contact-section {
   margin-left: 150px;
   margin-top: 100px;
   margin-right: 100px;
@@ -225,16 +221,16 @@ span .search-icon{
   padding: 30px;
 }
 
-.form-section form{
+.form-section form {
   display: flex;
   flex-direction: column;
 }
 
-.contact-titles{
-  margin: auto 10px; 
+.contact-titles {
+  margin: auto 10px;
 }
 
-.contact-titles h1{
+.contact-titles h1 {
   color: #ffffff;
   font-size: 4.2rem;
   line-height: 0.3;
@@ -243,29 +239,29 @@ span .search-icon{
   text-transform: uppercase;
 }
 
-.contact-titles p{
+.contact-titles p {
   color: #ffffff;
   line-height: 0.3;
   font-weight: 400;
   font-family: "Karla", sans-serif;
   margin-left: 10px;
-  
 }
-.form-section{
+
+.form-section {
   width: 50%;
   border-radius: 8px;
-  background-color: rgb(0,0,0,0.3);
+  background-color: rgb(0, 0, 0, 0.3);
   padding: 15px;
 }
 
-.form-section form label{
+.form-section form label {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: "Karla", sans-serif;
   color: rgb(255, 255, 255, 0.9);
 }
 
-.form-section form input{
+.form-section form input {
   font-family: "Karla", sans-serif;
   color: rgb(255, 255, 255, 0.9);
   padding: 10px;
@@ -274,7 +270,7 @@ span .search-icon{
   background: transparent;
 }
 
-.form-section form textarea{
+.form-section form textarea {
   font-family: "Karla", sans-serif;
   color: rgb(255, 255, 255, 0.9);
   padding: 10px;
@@ -284,7 +280,7 @@ span .search-icon{
   resize: none;
 }
 
-.form-submit-btn{
+.form-submit-btn {
   margin-top: 20px;
   padding: 10px;
   border-radius: 10px;
@@ -296,46 +292,47 @@ span .search-icon{
 
 /* search-results */
 
-.search-results{
+.search-results {
   position: absolute;
   width: 500px;
   height: 80vh;
   right: 2%;
   top: 15%;
   overflow-y: scroll;
-  
 }
+
 
 .search-results::-webkit-scrollbar {
   display: none;
 }
 
-.search-results ul{
+.search-results ul {
   margin: 0;
   padding: 0;
 }
 
-.search-result-item{
+.search-result-item {
   overflow: hidden;
   background-color: #ffffff;
   border-radius: 10px;
   margin-top: 10px;
 }
 
-.under-section{
+.under-section {
   padding: 5px 10px 10px 10px;
 }
 
-.under-section h1{
-  margin: 0;
-  padding: 5px;
-}
-.under-section p{
+.under-section h1 {
   margin: 0;
   padding: 5px;
 }
 
-.under-section .visit{
+.under-section p {
+  margin: 0;
+  padding: 5px;
+}
+
+.under-section .visit {
   margin-top: 10px;
   padding: 5px 25px;
   border: none;
@@ -343,4 +340,23 @@ span .search-icon{
   color: #ffffff;
   border-radius: 8px;
   font-weight: 700;
+}
+
+
+#btnClear {
+    background-color: red; /* Set background color to red */
+    color: white; /* Set text color to white */
+    border: none; /* Remove border */
+    padding: 7px 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    margin-left: 10px; /* Adjust margin as needed */
+    outline: none; /* Remove outline on focus */
+}
+  
+#btnClear:hover {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+  
+#btnClear:active {
+    transform: scale(0.95); /* Add slight scale down effect on click */
 }
