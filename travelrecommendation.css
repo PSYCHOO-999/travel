@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Katibeh&family=Kaushan+Script&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image:linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url(./assets/bg-main.jpg);
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(30, 30, 30, 0.7);
+  padding: 20px;
+}
+
+.logo-section p {
+  color: #ffffff;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  font-family: "Kaushan Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.nav-links ul li {
+  display: inline-block;
+  margin-right: 15px;
+  font-weight: 600;
+  font-family: "Karla", sans-serif;
+  font-size: 1.2rem;
+}
+
+.search-bar-container {
+  background-color: #ffffff;
+  padding: 4px 20px;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.search-bar-container input {
+  border: none;
+  width: 250px;
+  padding: 10px;
+}
+
+#search-bar-container input::placeholder {
+  color: #017577;
+}
+
+.search-bar-container .nav-btn {
+  background-color: #017577;
+  color: #ffffff;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  outline: none;
+}
+
+span .search-icon{
+  color: #017577;
+  font-weight: 900;
+}
+
+.social-media-conatiner{
+  position: absolute;
+  left: 2%;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.verticle-line {
+  width: 1px;
+  height: 250px;
+  background-color: #ffffff;
+}
+
+.social-icons{
+  margin-top: 50px;
+}
+
+.social-icons ul{
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons ul li {
+  margin-top: 20px;
+}
+
+.social {
+  font-size: 1.5rem;
+}
+
+.header-section{
+  width: 20%;
+  margin-left: 150px;
+  margin-top: 220px;
+}
+
+.header-section h1{
+  color: #ffffff;
+  font-size: 4.2rem;
+  line-height: 0.3;
+  font-weight: 900;
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+}
+.main-description{
+  margin-top: 30px;
+}
+
+.main-description p {
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.book-now-btn{
+  margin-top: 30px;
+  padding: 10px 25px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #017577;
+}
+
+/* About Section */
+
+.header-section-about{
+  margin-left: 150px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+.header-section-about h1{
+  color: #ffffff;
+  font-size: 4.2rem;
+  line-height: 0.3;
+  font-weight: 900;
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+}
+.header-section-about .main-description{
+  background-color: rgb(0,0,0,0.3);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.contact-person{
+  border-radius: 8px;
+  display: flex;
+  background-color: rgb(0,0,0,0.3);
+  margin-top: 50px;
+  margin-left: 100px;
+  padding: 10px;
+  gap: 50px;
+}
+
+.contact-details{
+  padding: 10px;
+  display: flex;
+}
+
+.contact-card{
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.contact-card .person{
+  font-size: 1.5rem;
+  color: aquamarine;
+  background-color: rgb(4, 77, 179);
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.person-name{
+  font-weight: 700;
+  color: rgb(255, 255, 255, 0.9);
+  font-family: "Karla", sans-serif;
+
+}
+
+.person-description{
+  font-weight: 400;
+  color: rgb(213, 213, 213);
+  font-family: "Karla", sans-serif;
+}
+
+.person-position{
+  background-color: rgb(39, 67, 133);
+  color: rgb(255, 255, 255, 0.9);
+  padding: 6px 40px;
+  border-radius: 8px;
+  border: 1px solid rgba(175, 175, 175, 0.9);
+}
+
+/* Contact Section */
+
+.header-contact-section{
+  margin-left: 150px;
+  margin-top: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.form-section form{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-titles{
+  margin: auto 10px; 
+}
+
+.contact-titles h1{
+  color: #ffffff;
+  font-size: 4.2rem;
+  line-height: 0.3;
+  font-weight: 900;
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+}
+
+.contact-titles p{
+  color: #ffffff;
+  line-height: 0.3;
+  font-weight: 400;
+  font-family: "Karla", sans-serif;
+  margin-left: 10px;
+  
+}
+.form-section{
+  width: 50%;
+  border-radius: 8px;
+  background-color: rgb(0,0,0,0.3);
+  padding: 15px;
+}
+
+.form-section form label{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Karla", sans-serif;
+  color: rgb(255, 255, 255, 0.9);
+}
+
+.form-section form input{
+  font-family: "Karla", sans-serif;
+  color: rgb(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(175, 175, 175, 0.9);
+  background: transparent;
+}
+
+.form-section form textarea{
+  font-family: "Karla", sans-serif;
+  color: rgb(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(175, 175, 175, 0.9);
+  background: transparent;
+  resize: none;
+}
+
+.form-submit-btn{
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #017577;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+/* search-results */
+
+.search-results{
+  position: absolute;
+  width: 500px;
+  height: 80vh;
+  right: 2%;
+  top: 15%;
+  overflow-y: scroll;
+  
+}
+
+.search-results::-webkit-scrollbar {
+  display: none;
+}
+
+.search-results ul{
+  margin: 0;
+  padding: 0;
+}
+
+.search-result-item{
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.under-section{
+  padding: 5px 10px 10px 10px;
+}
+
+.under-section h1{
+  margin: 0;
+  padding: 5px;
+}
+.under-section p{
+  margin: 0;
+  padding: 5px;
+}
+
+.under-section .visit{
+  margin-top: 10px;
+  padding: 5px 25px;
+  border: none;
+  background-color: #017577;
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: 700;
+}
