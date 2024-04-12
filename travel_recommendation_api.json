@@ -1,88 +1,60 @@
 {
-    "countries": [
-      {
-        "id": 1,
-        "name": "Australia",
-        "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Sydney.jpg?raw=true",
-        "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge.",
-        "cities": [
-          {
-            "name": "Sydney, Australia",
-            "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Sydney.jpg?raw=true",
-            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
-          },
-          {
-            "name": "Melbourne, Australia",
-            "imageUrl": "https://pics2.baidu.com/feed/11385343fbf2b211eb08aedf6684473d0cd78e02.jpeg?token=c53717f93777af754b8375674a67fb96&s=1536779048533BCC36387D810300E088",
-            "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Japan",
-        "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Kyoto.jpg?raw=true",
-        "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture.",
-        
-        "cities": [
-          {
-            "name": "Tokyo, Japan",
-            "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Tokyo.jpg?raw=true",
-            "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
-          },
-          {
-            "name": "Kyoto, Japan",
-            "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Kyoto.jpg?raw=true",
-            "description": "Known for its historic temples, gardens, and traditional tea houses."
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Brazil",
-        "imageUrl": "https://img2.baidu.com/it/u=1204075912,2827072787&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=500",
-        "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks.",
-        "cities": [
-          {
-            "name": "Rio de Janeiro, Brazil",
-            "imageUrl": "https://img2.baidu.com/it/u=1204075912,2827072787&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=500",
-            "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
-          },
-          {
-            "name": "São Paulo, Brazil",
-            "imageUrl": "https://wx1.sinaimg.cn/large/bbfa5442ly1gypr23fepbj218g0p0aog.jpg",
-            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
-          }
-        ]
-      }
-    ],
-    "temples": [
-      {
-        "id": 1,
-        "name": "Angkor Wat, Cambodia",
-        "imageUrl": "https://img0.baidu.com/it/u=170000256,1720080851&fm=253&fmt=auto&app=120&f=JPEG?w=1229&h=800",
-        "description": "A UNESCO World Heritage site and the largest religious monument in the world."
-      },
-      {
-        "id": 2,
-        "name": "Taj Mahal, India",
-        "imageUrl": "https://img1.baidu.com/it/u=636955934,4045106804&fm=253&fmt=auto&app=120&f=JPEG?w=846&h=475",
-        "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
-      }
-    ],
-    "beaches": [
-      {
-        "id": 1,
-        "name": "Bora Bora, French Polynesia",
-        "imageUrl": "https://img2.baidu.com/it/u=3419390882,352104360&fm=253&fmt=auto&app=138&f=JPEG?w=667&h=500",
-        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
-      },
-      {
-        "id": 2,
-        "name": "Copacabana Beach, Brazil",
-        "imageUrl": "https://img2.baidu.com/it/u=433471885,735320739&fm=253&fmt=auto&app=138&f=JPEG?w=700&h=426",
-        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
-      }
-    ]
-  }
-  
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Australia.jpg?raw=true",
+      "description": "🏞️ Explore the vast outback, vibrant cities, and stunning coastline of Australia. Dive into the Great Barrier Reef, surf the waves of Bondi Beach, and marvel at iconic landmarks like the Sydney Opera House and Uluru. 🌊",
+      "cities": [
+        {
+          "name": "Sydney, Australia",
+          "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Sydney.jpg?raw=true",
+          "description": "🏙️ Experience the cosmopolitan charm of Sydney with its world-class dining, shopping, and entertainment. Don't miss the breathtaking views from the Sydney Harbour Bridge and the serene beauty of the Royal Botanic Garden. 🌳"
+        },
+        {
+          "name": "Melbourne, Australia",
+          "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Melbourne.jpg?raw=true",
+          "description": "🎨 Immerse yourself in the cultural diversity of Melbourne, known for its vibrant arts scene, eclectic street art, and lively laneways. Indulge in delicious cuisine at the Queen Victoria Market and explore the iconic Melbourne Cricket Ground. 🍲"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Japan.jpg?raw=true",
+      "description": "🏯 Experience the perfect blend of ancient traditions and cutting-edge technology in Japan. Discover serene temples, bustling metropolises, and breathtaking natural landscapes. 🌸",
+      
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Tokyo.jpg?raw=true",
+          "description": "🌃 Get lost in the neon-lit streets of Tokyo, where modern skyscrapers stand alongside historic temples. Explore the vibrant districts of Shinjuku and Shibuya, and indulge in authentic Japanese cuisine. 🍣"
+        },
+        {
+          "name": "Kyoto, Japan",
+          "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Kyoto.jpg?raw=true",
+          "description": "⛩️ Step back in time in Kyoto, the cultural heart of Japan, with its serene temples, traditional tea houses, and stunning bamboo forests. Experience the beauty of cherry blossom season and immerse yourself in the art of the tea ceremony. 🍵"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Brazil.jpg?raw=true",
+      "description": "🌴 Experience the rhythm of Brazil, from the vibrant streets of Rio de Janeiro to the lush rainforests of the Amazon. Dance to the samba beats, relax on golden beaches, and explore the rich cultural heritage of this diverse country. 💃",
+      
+      "cities": [
+        {
+          "name": "Rio de Janeiro, Brazil",
+          "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Rio_de_Janeiro.jpg?raw=true",
+          "description": "🌅 Discover the energy of Rio de Janeiro, with its iconic landmarks like Christ the Redeemer and Sugarloaf Mountain. Relax on the world-famous beaches of Copacabana and Ipanema, and experience the vibrant nightlife of Lapa. 🍹"
+        },
+        {
+          "name": "São Paulo, Brazil",
+          "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Sao_Paulo.jpg?raw=true",
+          "description": "🎭 Experience the cultural melting pot of São Paulo, known for its dynamic arts scene, gourmet dining, and vibrant street markets. Explore the bustling neighborhoods of Vila Madalena and Jardins, and savor the flavors of Brazilian cuisine. 🥘"
+        }
+      ]
+    }
+  ]
+}
