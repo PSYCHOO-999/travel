@@ -1,3 +1,4 @@
+/* Reset CSS */
 body, h1, p, ul, li, input, textarea, button {
     margin: 0;
     padding: 0;
@@ -5,22 +6,22 @@ body, h1, p, ul, li, input, textarea, button {
     font-family: Arial, sans-serif;
 }
 
+/* Navigation Styles */
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
     background-color: rgba(34, 34, 34, 0.8);
     color: #fff;
-    z-index: 1000;
 }
 
 .logo-section p {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .nav-links ul {
-    list-style-type: none;
+    list-style: none;
 }
 
 .nav-links ul li {
@@ -28,13 +29,17 @@ nav {
     margin-right: 15px;
 }
 
-body {
-    background-image: linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url('https://cdn.pixabay.com/photo/2020/03/25/12/41/beach-4967176_1280.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
+.serach-bar-section {
+    display: none; /* Hide search bar */
+}
+
+/* Main Content Styles */
 .header-contact-section {
     margin: 50px auto;
     padding: 30px;
