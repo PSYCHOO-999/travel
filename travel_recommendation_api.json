@@ -3,17 +3,17 @@
     {
       "id": 1,
       "name": "Australia",
-      "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Australia.jpg?raw=true",
+      "imageUrl": "https://i.imgur.com/5XWQ2yG.jpg",
       "description": "🏞️ Explore the vast outback, vibrant cities, and stunning coastline of Australia. Dive into the Great Barrier Reef, surf the waves of Bondi Beach, and marvel at iconic landmarks like the Sydney Opera House and Uluru. 🌊",
       "cities": [
         {
           "name": "Sydney, Australia",
-          "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Sydney.jpg?raw=true",
+          "imageUrl": "https://i.imgur.com/3pDyP0j.jpg",
           "description": "🏙️ Experience the cosmopolitan charm of Sydney with its world-class dining, shopping, and entertainment. Don't miss the breathtaking views from the Sydney Harbour Bridge and the serene beauty of the Royal Botanic Garden. 🌳"
         },
         {
           "name": "Melbourne, Australia",
-          "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Melbourne.jpg?raw=true",
+          "imageUrl": "https://i.imgur.com/Q0CjCZb.jpg",
           "description": "🎨 Immerse yourself in the cultural diversity of Melbourne, known for its vibrant arts scene, eclectic street art, and lively laneways. Indulge in delicious cuisine at the Queen Victoria Market and explore the iconic Melbourne Cricket Ground. 🍲"
         }
       ]
@@ -21,18 +21,18 @@
     {
       "id": 2,
       "name": "Japan",
-      "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Japan.jpg?raw=true",
+      "imageUrl": "https://i.imgur.com/6JzGKjz.jpg",
       "description": "🏯 Experience the perfect blend of ancient traditions and cutting-edge technology in Japan. Discover serene temples, bustling metropolises, and breathtaking natural landscapes. 🌸",
       
       "cities": [
         {
           "name": "Tokyo, Japan",
-          "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Tokyo.jpg?raw=true",
+          "imageUrl": "https://i.imgur.com/KjK1eJb.jpg",
           "description": "🌃 Get lost in the neon-lit streets of Tokyo, where modern skyscrapers stand alongside historic temples. Explore the vibrant districts of Shinjuku and Shibuya, and indulge in authentic Japanese cuisine. 🍣"
         },
         {
           "name": "Kyoto, Japan",
-          "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Kyoto.jpg?raw=true",
+          "imageUrl": "https://i.imgur.com/0XQ1xvZ.jpg",
           "description": "⛩️ Step back in time in Kyoto, the cultural heart of Japan, with its serene temples, traditional tea houses, and stunning bamboo forests. Experience the beauty of cherry blossom season and immerse yourself in the art of the tea ceremony. 🍵"
         }
       ]
@@ -40,18 +40,18 @@
     {
       "id": 3,
       "name": "Brazil",
-      "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Brazil.jpg?raw=true",
+      "imageUrl": "https://i.imgur.com/8Q0XjKj.jpg",
       "description": "🌴 Experience the rhythm of Brazil, from the vibrant streets of Rio de Janeiro to the lush rainforests of the Amazon. Dance to the samba beats, relax on golden beaches, and explore the rich cultural heritage of this diverse country. 💃",
       
       "cities": [
         {
           "name": "Rio de Janeiro, Brazil",
-          "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Rio_de_Janeiro.jpg?raw=true",
+          "imageUrl": "https://i.imgur.com/1yZ1CZb.jpg",
           "description": "🌅 Discover the energy of Rio de Janeiro, with its iconic landmarks like Christ the Redeemer and Sugarloaf Mountain. Relax on the world-famous beaches of Copacabana and Ipanema, and experience the vibrant nightlife of Lapa. 🍹"
         },
         {
           "name": "São Paulo, Brazil",
-          "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Sao_Paulo.jpg?raw=true",
+          "imageUrl": "https://i.imgur.com/2aDyP0j.jpg",
           "description": "🎭 Experience the cultural melting pot of São Paulo, known for its dynamic arts scene, gourmet dining, and vibrant street markets. Explore the bustling neighborhoods of Vila Madalena and Jardins, and savor the flavors of Brazilian cuisine. 🥘"
         }
       ]
