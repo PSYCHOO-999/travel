@@ -4,8 +4,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-/*   background-image: linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url(./assets/bg-main.jpg);
-  background-size: cover; */
+  background-image: linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url(https://images.pexels.com/photos/333525/pexels-photo-333525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
 }
 #myVideo {
   position: fixed;
