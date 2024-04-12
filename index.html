@@ -8,9 +8,6 @@
     <title>World Tour</title>
 </head>
 <body>
-    <video autoplay muted loop id="myVideo">
-        <source src="https://videos.pexels.com/video-files/3094026/3094026-uhd_3840_2160_30fps.mp4" type="video/mp4">
-    </video>
     <!-- Nav bar -->
     <nav>
         <div class="logo-section">
@@ -68,25 +65,6 @@
         </div>
         <button class="book-now-btn">BOOK NOW</button>
     </div>
-
-    <script>
-// Get the video
-var video = document.getElementById("myVideo");
-
-// Get the button
-var btn = document.getElementById("myBtn");
-
-// Pause and play the video, and change the button text
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
-</script>
 
     <script src="./travel_recommendation.js"></script> 
 </body>
