@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image:linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url(./assets/bg-main.jpg);
+  background-image:linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url('https://cdn.pixabay.com/photo/2023/10/25/19/25/blue-8341156_1280.jpg');
   background-size: cover;
 }
 
