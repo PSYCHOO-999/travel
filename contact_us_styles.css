@@ -1,4 +1,4 @@
-/* Reset CSS */
+
 body, h1, p, ul, li, input, textarea, button {
     margin: 0;
     padding: 0;
@@ -6,7 +6,21 @@ body, h1, p, ul, li, input, textarea, button {
     font-family: Arial, sans-serif;
 }
 
-/* Navigation Styles */
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo-section p {
+  color: #ffffff;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  font-family: "Kaushan Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -103,57 +117,8 @@ textarea {
 /* contact_us_script.css */
 
 body {
-  background-image: linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url(./assets/bg-main.jpg);
+  background-image: linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url('https://cdn.pixabay.com/photo/2023/10/25/19/25/blue-8341156_1280.jpg');
   background-size: cover;
   font-family: "Karla", sans-serif; /* Same font family as "world tour" */
-}
-
-.popup {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
-  display: none;
-}
-
-.popup h2 {
-  font-size: 1.5rem;
-  color: #017577;
-  margin-bottom: 10px;
-}
-
-.popup p {
-  font-size: 1.2rem;
-  color: #333;
-}
-
-.popup button {
-  background-color: #017577;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-/* Fade animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 0.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
