@@ -24,27 +24,47 @@ async function showResults() {
 
     let filteredResults = [];
 
+    // Filter countries and cities matching the search keyword
     data.countries.forEach(country => {
         if (country.name.toLowerCase() === searchKeyword) {
             filteredResults.push(country);
+            country.cities.forEach(city => {
+                filteredResults.push(city);
+            });
+        } else {
+            country.cities.forEach(city => {
+                if (city.name.toLowerCase() === searchKeyword) {
+                    filteredResults.push(city);
+                }
+            });
         }
     });
 
     // Display filtered results
     if (filteredResults.length > 0) {
-        filteredResults.forEach(country => {
+        filteredResults.forEach(item => {
             const li = document.createElement("li");
             li.classList.add("search-result-item");
-            li.innerHTML = `
-              <div class="parent-container">
-                <img src="${country.imageUrl}" alt="${country.name}" class="show-img" width="500px" height="auto">
-                <div class="under-section">
-                  <h1>${country.name}</h1>
-                  <p>${country.description}</p>
-                  <button class="visit">Visit</button>
-                </div>
-              </div>
-            `;
+            if (item.hasOwnProperty("name")) {
+                li.innerHTML = `
+                    <div class="parent-container">
+                        <img src="${item.imageUrl}" alt="${item.name}" class="show-img" width="500px" height="auto">
+                        <div class="under-section">
+                            <h1>${item.name}</h1>
+                            <p>${item.description}</p>
+                        </div>
+                    </div>
+                `;
+            } else {
+                li.innerHTML = `
+                    <div class="parent-container">
+                        <img src="${item.imageUrl}" alt="${item.name}" class="show-img" width="500px" height="auto">
+                        <div class="under-section">
+                            <p>${item.description}</p>
+                        </div>
+                    </div>
+                `;
+            }
             searchResultsContainer.appendChild(li);
         });
 
@@ -56,7 +76,7 @@ async function showResults() {
         data.countries.forEach(country => {
             availableCountries += "- " + country.name + "\n";
         });
-        alert("Data for this country not found.\n\n" + availableCountries);
+        alert("Data for this country or city not found.\n\n" + availableCountries);
     }
 }
 
