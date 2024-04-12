@@ -1,4 +1,3 @@
-/* Resetting Default Browser Styles */
 body, h1, p, ul, li, input, textarea, button {
     margin: 0;
     padding: 0;
@@ -6,14 +5,14 @@ body, h1, p, ul, li, input, textarea, button {
     font-family: Arial, sans-serif;
 }
 
-/* Navigation Bar */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #222; /* Dark background color */
-    color: #fff; /* Text color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(34, 34, 34, 0.8);
+    color: #fff;
+    z-index: 1000;
 }
 
 .logo-section p {
@@ -29,14 +28,22 @@ nav {
     margin-right: 15px;
 }
 
-/* Contact Section */
+body {
+    background-image: url('path_to_your_background_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .header-contact-section {
     margin: 50px auto;
     padding: 30px;
     width: 50%;
-    background-color: #f2f2f2; /* Light background color */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 999;
 }
 
 .contact-titles h1 {
@@ -46,7 +53,7 @@ nav {
 
 .contact-titles p {
     font-size: 1.2rem;
-    color: #666; /* Gray color */
+    color: #666;
 }
 
 .form-section {
@@ -57,24 +64,23 @@ form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #333; /* Dark color */
+    color: #333;
 }
 
 input, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc; /* Light gray border */
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 textarea {
-    height: 150px; /* Set a fixed height for textarea */
+    height: 150px;
 }
 
-/* Submit Button */
 .form-submit-btn {
-    background-color: #4CAF50; /* Green background */
+    background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
@@ -86,5 +92,5 @@ textarea {
 }
 
 .form-submit-btn:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049;
 }
