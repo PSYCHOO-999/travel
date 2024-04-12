@@ -351,22 +351,19 @@ nav {
 
 
 #btnClear {
-    background-color: red; /* Set background color to red */
-    color: white; /* Set text color to white */
-    border: none; /* Remove border */
-    padding: 7px 10px; /* Adjust padding as needed */
-    border-radius: 5px; /* Add border-radius for rounded corners */
-    margin-left: 10px; /* Adjust margin as needed */
-    outline: none; /* Remove outline on focus */
+    background-color: red; 
+    color: white; 
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-left: 10px; 
+    outline: none;
 }
   
 #btnClear:hover {
-    cursor: pointer; /* Change cursor to pointer on hover */
+    cursor: pointer;
 }
   
 #btnClear:active {
-    transform: scale(0.95); /* Add slight scale down effect on click */
-}
-#send{
-  padding: 20px 5px;
+    transform: scale(0.95); 
 }
