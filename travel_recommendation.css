@@ -4,8 +4,15 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url(./assets/bg-main.jpg);
-  background-size: cover;
+/*   background-image: linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url(./assets/bg-main.jpg);
+  background-size: cover; */
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 a {
