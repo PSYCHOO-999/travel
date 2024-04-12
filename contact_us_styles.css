@@ -29,7 +29,7 @@ nav {
 }
 
 body {
-    background-image: url('path_to_your_background_image.jpg');
+    background-image: linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url('https://cdn.pixabay.com/photo/2020/03/25/12/41/beach-4967176_1280.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
