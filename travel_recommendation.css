@@ -367,3 +367,6 @@ nav {
 #btnClear:active {
     transform: scale(0.95); /* Add slight scale down effect on click */
 }
+#send{
+  padding: 20px 5px;
+}
