@@ -52,6 +52,7 @@ async function showResults() {
                         <div class="under-section">
                             <h1>${item.name}</h1>
                             <p>${item.description}</p>
+                            <button class="visit-btn form-submit-btn">Visit</button> <!-- Add Visit button -->
                         </div>
                     </div>
                 `;
@@ -61,11 +62,19 @@ async function showResults() {
                         <img src="${item.imageUrl}" alt="${item.name}" class="show-img" width="500px" height="auto">
                         <div class="under-section">
                             <p>${item.description}</p>
+                            <button class="visit-btn form-submit-btn">Visit</button> <!-- Add Visit button -->
                         </div>
                     </div>
                 `;
             }
             searchResultsContainer.appendChild(li);
+
+            // Add event listener to the Visit button
+            const visitButton = li.querySelector(".visit-btn");
+            visitButton.addEventListener("click", () => {
+                // Redirect to the contact us page
+                window.location.href = "contact_us.html";
+            });
         });
 
         // Show the clear button after search
