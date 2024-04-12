@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url('https://cdn.pixabay.com/photo/2020/03/25/12/41/beach-4967176_1280.jpg');
+  background-image:linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url(./assets/bg-main.jpg);
   background-size: cover;
 }
 
@@ -55,7 +55,6 @@ nav {
   border: none;
   width: 250px;
   padding: 10px;
-  outline: none; /* Remove outline */
 }
 
 #search-bar-container input::placeholder {
@@ -72,15 +71,21 @@ nav {
   outline: none;
 }
 
-.social-media-container {
+span .search-icon {
+  color: #017577;
+  font-weight: 900;
+}
+
+.social-media-conatiner {
   position: absolute;
   left: 2%;
   top: 20%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.vertical-line {
+.verticle-line {
   width: 1px;
   height: 250px;
   background-color: #ffffff;
@@ -288,15 +293,6 @@ nav {
   background-color: #017577;
   color: #ffffff;
   font-size: 1.2rem;
-  cursor: pointer;
-}
-
-.form-submit-btn:hover {
-  background-color: #01565c;
-}
-
-.form-submit-btn:active {
-  transform: scale(0.95);
 }
 
 /* search-results */
