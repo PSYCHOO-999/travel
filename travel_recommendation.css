@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image:linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url('https://cdn.pixabay.com/photo/2023/10/25/19/25/blue-8341156_1280.jpg');
+  background-image: linear-gradient(to right, rgb(1, 117, 119, 0.4), rgb(1, 117, 119, 0)), url('https://cdn.pixabay.com/photo/2023/10/25/19/25/blue-8341156_1280.jpg');
   background-size: cover;
 }
 
@@ -45,7 +45,7 @@ nav {
 }
 
 .search-bar-container {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5); /* Initial semi-transparent background */
   padding: 4px 20px;
   border-radius: 25px;
   align-items: center;
@@ -55,6 +55,7 @@ nav {
   border: none;
   width: 250px;
   padding: 10px;
+  background-color: transparent; /* Make input background transparent */
 }
 
 #search-bar-container input::placeholder {
@@ -71,9 +72,9 @@ nav {
   outline: none;
 }
 
-span .search-icon {
-  color: #017577;
-  font-weight: 900;
+/* Make search bar fully opaque when hovered over */
+.search-bar-container:hover {
+  background-color: white;
 }
 
 .social-media-conatiner {
