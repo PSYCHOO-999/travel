@@ -45,18 +45,23 @@ nav {
 }
 
 .search-bar-container {
-  background-color: rgba(255, 255, 255, 0.5); /* Initial semi-transparent background */
+  background-color: rgba(255, 255, 255, 0.5); 
   padding: 4px 20px;
   border-radius: 25px;
   align-items: center;
 }
 
 .search-bar-container input {
-  border: none;
+  border: none !important;
   width: 250px;
   padding: 10px;
-  background-color: transparent; /* Make input background transparent */
+  background-color: transparent; 
 }
+
+.search-bar-container input:focus {
+  outline: none; 
+}
+
 
 #search-bar-container input::placeholder {
   color: #017577;
@@ -72,7 +77,6 @@ nav {
   outline: none;
 }
 
-/* Make search bar fully opaque when hovered over */
 .search-bar-container:hover {
   background-color: white;
 }
